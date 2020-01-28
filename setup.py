@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='eisen',
-    version="0.1.0",
+    version="0.1.1",
     description='Eisen Meta Package (installs all components of Eisen)',
     packages=find_packages(),
     install_requires=install_requires,
