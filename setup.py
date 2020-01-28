@@ -9,7 +9,5 @@ setup(
     version="0.1.0",
     description='Eisen Meta Package (installs all components of Eisen)',
     packages=find_packages(),
-    requirements=[
-
-    ]
+    install_requires=install_requires,
 )
