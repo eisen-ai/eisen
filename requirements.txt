@@ -1,1 +1,2 @@
 eisen-core==0.0.1
+eisen-cli==0.0.1
