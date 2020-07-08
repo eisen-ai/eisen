@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.1.9'
+VERSION = "0.1.9"
 
-with open('requirements.txt') as f:
-    install_requires = f.read().strip().split('\n')
+with open("requirements.txt") as f:
+    install_requires = f.read().strip().split("\n")
 
 setup(
-    name='eisen',
+    name="eisen",
     version=VERSION,
-    description='Eisen Meta Package (installs all components of Eisen)',
+    description="Eisen Meta Package (installs all components of Eisen)",
     packages=find_packages(),
     install_requires=install_requires,
-    python_requires='>=3.6',
+    python_requires=">=3.6",
 )
