@@ -10,6 +10,8 @@ on:
     tags:
       - v*
 
+  repository_dispatch:
+
 env:
   IMAGE_NAME: eisenai/eisen
 
