@@ -21,7 +21,6 @@ jobs:
 
       - name: Install eisen latest package
         run: |
-          pip install git+
           pip install --upgrade git+https://github.com/eisen-ai/eisen-deploy.git
           pip install --upgrade git+https://github.com/eisen-ai/eisen-cli.git
           pip install --upgrade git+https://github.com/eisen-ai/eisen-extras.git
