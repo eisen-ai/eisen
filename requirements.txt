@@ -1,3 +1,3 @@
-eisen-core==0.0.8
+eisen-core==0.0.9
 eisen-cli==0.0.7
 eisen-deploy==0.0.2
