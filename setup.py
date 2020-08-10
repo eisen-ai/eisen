@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = "0.1.9"
+VERSION = "0.1.10"
 
 with open("requirements.txt") as f:
     install_requires = f.read().strip().split("\n")
